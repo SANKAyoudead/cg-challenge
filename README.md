@@ -10,7 +10,16 @@ This challenge requires you to use the following frameworks/libraries:
 - Recharts http://recharts.org/#/en-US/guide/getting-started
 
 
-Example has 2 pages made
+### Running the app
+Make sure you have nodejs installed. Homebrew has it on macos. 
+
+After you clone the repo, run ``npm install`` to install the libraries listed in package.json
+
+Use``npm run dev`` to start the app.
+
+### Beating the challenge
+
+You start off with 2 pages already made
 - Home page
 - Bitcoin price page
 
@@ -24,7 +33,7 @@ You have to make 3 more pages:
 
 - [ ] Coin comparison page
   - This page should have a bar graph displaying the top 5 crypto currencies
-  - For each one have 2 individual bars showing current price and a past price
+  - For each one have 2 individual bars showing current price and a past price. Any past price will do. There's at least one past price included in the api response found in pages/btc.js
   - Use the BarChart component from the Recharts library 
 
 And modify the home page:
@@ -58,9 +67,3 @@ Endpoint for multiple coins:
 - Bar chart: http://jsfiddle.net/v8gxrbyu/
 
 
-### Running the app
-Make sure you have nodejs installed. Homebrew has it on macos. 
-
-After you clone the repo, run ``npm install`` to install the libraries listed in package.json
-
-Use``npm run dev`` to start the app.
