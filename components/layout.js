@@ -30,6 +30,12 @@ export default ({ children, title = '' }) => (
           </Button>
         </Link>
 
+        <Link href="/xrp">
+          <Button variant="raised" color="primary" component="a">
+            Ripple
+          </Button>
+        </Link>
+
         <Link href="/compare">
           <Button variant="raised" color="primary" component="a">
             Compare
